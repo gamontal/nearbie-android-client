@@ -1,3 +1,3 @@
 
 # bb-android
-Android development.
+Android development
