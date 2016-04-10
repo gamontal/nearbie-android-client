@@ -16,7 +16,7 @@
     <SwitchPreference
         android:key="switch_preference"
         android:title="Share my location"
-        android:summary="Nearbie would use your location to determine nearby users and places." />
+        android:summary="We will use your location to determine nearby users and places." />
 
         <Preference
             android:title="Blocked Users">
