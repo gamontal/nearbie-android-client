@@ -89,6 +89,7 @@ public class NearbyFragment extends Fragment {
         ArrayList<Event> events = new ArrayList<>();
         events.add(new Event("https://pbs.twimg.com/profile_images/661931868858658817/xV0fUYnn.png", "Hack Turabo", "86"));
         events.add(new Event("https://4.bp.blogspot.com/-WZAK-U8am6E/VwJe80A5PcI/AAAAAAAAEr4/o2-ul1F9GR8nzuWFL_to3rwsok-5lm2EA/s1600/justas%2Bmayaguez.jpg", "LAI 2016", "99"));
+        events.add(new Event("https://pbs.twimg.com/profile_images/580926474896605184/M3T2Y5df_400x400.png", "H3 Tech Conference", "99"));
         return events;
     }
 
@@ -97,9 +98,9 @@ public class NearbyFragment extends Fragment {
     private ArrayList<User> dummyUsers() {
 
         users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@pedrito", "Hey There! I am using Nearbie."));
-        users.add(new User("http://www.material-ui.com/images/chexee-128.jpg", "@valentina89", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/chexee-128.jpg", "@valentina89", "Lets go hang!"));
         users.add(new User("http://www.material-ui.com/images/kolage-128.jpg", "@erick_34", "Hey There! I am using Nearbie."));
-        users.add(new User("http://www.material-ui.com/images/uxceo-128.jpg", "@maria_vel", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/uxceo-128.jpg", "@maria_vel", "Wanna party tonight?"));
         users.add(new User("http://www.material-ui.com/images/adhamdannaway-128.jpg", "@leo_mldo", "Hey There! I am using Nearbie."));
         users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@angel_jesus", "Hey There! I am using Nearbie."));
 

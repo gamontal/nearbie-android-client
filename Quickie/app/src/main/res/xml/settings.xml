@@ -16,7 +16,7 @@
     <SwitchPreference
         android:key="switch_preference"
         android:title="Share my location"
-        android:summary="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." />
+        android:summary="Nearbie would use your location to determine nearby users and places." />
 
         <Preference
             android:title="Blocked Users">

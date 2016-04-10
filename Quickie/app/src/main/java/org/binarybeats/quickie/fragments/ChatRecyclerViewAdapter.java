@@ -1,6 +1,7 @@
 package org.binarybeats.quickie.fragments;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -45,6 +46,12 @@ implements HorizontalDividerItemDecoration.MarginProvider {
                 .placeholder(R.mipmap.ic_launcher)
                 .into(holder.mUserImage);
         holder.mUsername.setText(mUsers.get(position).getUsername());
+
+        if(position == 0 || position == 1) {
+            holder.mIcon.setColorFilter(Color.parseColor("#009688"));
+        } else {
+            holder.mIcon.setAlpha((float) 0.38);
+        }
     }
 
     @Override
@@ -67,11 +74,13 @@ implements HorizontalDividerItemDecoration.MarginProvider {
 
         private ImageView mUserImage;
         private TextView mUsername;
+        private ImageView mIcon;
 
         public ChatRecyclerViewViewHolder(View itemView) {
             super(itemView);
             mUserImage = (ImageView) itemView.findViewById(R.id.profile_image_chat);
             mUsername = (TextView) itemView.findViewById(R.id.username_chat);
+            mIcon = (ImageView) itemView.findViewById(R.id.chat_list_icon);
         }
     }
 }

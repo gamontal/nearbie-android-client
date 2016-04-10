@@ -31,10 +31,6 @@ public class ChatFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_chat, container, false);
 
-
-
-
-
         RecyclerView rv = (RecyclerView) view.findViewById(R.id.recycler_view_chat);
         rv.setLayoutManager(new LinearLayoutManager(container.getContext()));
 
@@ -46,12 +42,7 @@ public class ChatFragment extends Fragment {
                         .marginProvider(adapter)
                         .build());
 
-
-
         rv.setAdapter(adapter);
-
-
-
 
         // Public Profile Dialog
 //        CustomDialogFragment customDialogFragment = new CustomDialogFragment();
@@ -63,9 +54,11 @@ public class ChatFragment extends Fragment {
 
     private ArrayList<User> dummyUsers() {
         ArrayList<User> users = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@johndoe", "I'm using Quickie."));
-        }
+            users.add(new User("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qsLLMlZF1Yhzuh1wChjR6NSVH9gLp4j5aTwOshivs5NRajcW", "@luiscab", "Hey There! I am using Nearbie."));
+            users.add(new User("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2D2yvEHyS9H5SenTEtpyQdqrZJkJJRux8I_FEhlZ1ZDmPT7HyDA", "@pepe_09", "Hey There! I am using Nearbie."));
+            users.add(new User("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRNyJLOisPQFCFNQWpToQEaGowuHf931eU_wKq_zwVTXqCoE-fAFA", "@juanmolina", "Hey There! I am using Nearbie."));
+            users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@edurd_45", "Hey There! I am using Nearbie."));
+
         return users;
     }
 }
