@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="General">
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:summaryOn="Notifications"
+            android:summaryOff="Notifications" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Privacy">
+
+    <SwitchPreference
+        android:key="switch_preference"
+        android:title="Share my location"
+        android:summary="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto." />
+
+        <Preference
+            android:title="Blocked Users">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://codepath.com/" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="">-->
+
+        <!--<ListPreference-->
+            <!--android:key="list_preference"-->
+            <!--android:title="Delete Account"-->
+            <!--android:dialogTitle="Delete Account"-->
+            <!--android:entries="@string/app_name"-->
+            <!--android:summary="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto."-->
+            <!--android:entryValues="@string/app_name" />-->
+
+    <!--</PreferenceCategory>-->
+
+</PreferenceScreen>
