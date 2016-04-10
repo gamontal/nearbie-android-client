@@ -1,6 +1,7 @@
 package org.binarybeats.quickie;
 
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -42,17 +43,21 @@ public class MainActivity extends AppCompatActivity {
         mBottomBarFragments.add(new SettingsFragment());
 
         // Attach the bottom bar to the activity.
-        mBottomBar = BottomBar.attach(MainActivity.this, savedInstanceState);
+        mBottomBar = BottomBar.attachShy((CoordinatorLayout) findViewById(R.id.coordinator_layout),
+                findViewById(R.id.container), savedInstanceState);
 
         // Solve the top empty space.
         mBottomBar.noTopOffset();
 
+        // Disable navigation bar transparency.
+        mBottomBar.noNavBarGoodness();
+
         // Set tabs icons and titles.
         mBottomBar.setItems(
-                new BottomBarTab(R.mipmap.ic_launcher, R.string.tab_nearby),
-                new BottomBarTab(R.mipmap.ic_launcher, R.string.tab_chat),
-                new BottomBarTab(R.mipmap.ic_launcher, R.string.tab_trending),
-                new BottomBarTab(R.mipmap.ic_launcher, R.string.tab_settings));
+                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_nearby),
+                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_chat),
+                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_trending),
+                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_settings));
 
         // Add colors for different tabs when there is more than three of them.
 //        mBottomBar.mapColorForTab(0, "#******");
