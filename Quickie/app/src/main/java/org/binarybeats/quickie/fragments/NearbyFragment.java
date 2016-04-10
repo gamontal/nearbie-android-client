@@ -70,9 +70,14 @@ public class NearbyFragment extends Fragment {
 
     private ArrayList<User> dummyUsers() {
         ArrayList<User> users = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@johndoe", "I'm using Quickie."));
-        }
+
+        users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@pedrito", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/chexee-128.jpg", "@valentina89", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/kolage-128.jpg", "@erick_34", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/uxceo-128.jpg", "@maria_vel", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.material-ui.com/images/adhamdannaway-128.jpg", "@leo_mldo", "Hey There! I am using Nearbie."));
+        users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@angel_jesus", "Hey There! I am using Nearbie."));
+
         return users;
     }
 }
