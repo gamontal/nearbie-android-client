@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="48dp"
-    android:orientation="vertical"
-    android:paddingLeft="16dp">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/left_horizontal_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.75dp"
+        android:alpha="0.38"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/header"
+        android:layout_toLeftOf="@+id/header"
+        android:background="#000000" />
 
     <TextView
         android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:fontFamily="sans-serif-medium"
-        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:text="New Text"
-        android:textColor="@color/colorPrimary"
-        android:textSize="14sp" />
-</LinearLayout>
+        android:gravity="center"
+        android:textColor="#212121"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/right_horizontal_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.75dp"
+        android:alpha="0.38"
+        android:background="#000000"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/header"
+        android:layout_toEndOf="@+id/header" />
+</RelativeLayout>

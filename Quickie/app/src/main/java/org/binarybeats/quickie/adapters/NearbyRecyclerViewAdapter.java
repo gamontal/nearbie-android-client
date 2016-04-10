@@ -22,9 +22,6 @@ import org.binarybeats.quickie.viewholders.UserViewHolder;
 
 import java.util.ArrayList;
 
-/**
- * Created by Leamsy on 4/6/2016.
- */
 public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         implements FlexibleDividerDecoration.VisibilityProvider,
         HorizontalDividerItemDecoration.MarginProvider {
@@ -115,7 +112,7 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
         switch (holder.getItemViewType()) {
             case PLACE_HEADER:
                 HeaderViewHolder headerPlaceViewHolder = (HeaderViewHolder) holder;
-                headerPlaceViewHolder.getHeader().setText("Nearby Places");
+                headerPlaceViewHolder.getHeader().setText("Places");
                 break;
             case PLACE:
                 PlaceViewHolder placeViewHolder = (PlaceViewHolder) holder;
@@ -139,7 +136,7 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
                 break;
             case USER_HEADER:
                 HeaderViewHolder headerUserViewHolder = (HeaderViewHolder) holder;
-                headerUserViewHolder.getHeader().setText("Nearby Users");
+                headerUserViewHolder.getHeader().setText("Users");
                 break;
             case USER:
                 UserViewHolder userViewHolder = (UserViewHolder) holder;
@@ -186,16 +183,18 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
 
     @Override
     public boolean shouldHideDivider(int position, RecyclerView parent) {
-        switch (position) {
-            case PLACE_HEADER_POSITION:
-                return true;
-            case EVENT_HEADER_POSITION:
-                return true;
-            case USER_HEADER_POSITION:
-                return true;
-        }
+//        switch (position) {
+//            case PLACE_HEADER_POSITION:
+//                return true;
+//            case EVENT_HEADER_POSITION:
+//                return true;
+//            case USER_HEADER_POSITION:
+//                return true;
+//        }
+//
+//        return false;
 
-        return false;
+        return true;
     }
 
     @Override

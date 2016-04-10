@@ -1,8 +1,11 @@
 package org.binarybeats.quickie;
 
+import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.graphics.drawable.DrawableCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -29,13 +32,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
+
+        if(getSupportActionBar() != null) {
+            getSupportActionBar().setElevation(0);
+            getSupportActionBar().setTitle("");
+        }
 
         buildBottomBar(savedInstanceState);
     }
 
     private void buildBottomBar(Bundle savedInstanceState) {
-        // Add tabs fragments.
+        // Add tabs fragments
         mBottomBarFragments = new ArrayList<>();
         mBottomBarFragments.add(new NearbyFragment());
         mBottomBarFragments.add(new ChatFragment());
@@ -54,16 +63,16 @@ public class MainActivity extends AppCompatActivity {
 
         // Set tabs icons and titles.
         mBottomBar.setItems(
-                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_nearby),
-                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_chat),
-                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_trending),
-                new BottomBarTab(R.drawable.ic_room_white_24dp, R.string.tab_settings));
+                new BottomBarTab(R.drawable.ic_near_me_black_24dp, R.string.tab_nearby),
+                new BottomBarTab(R.drawable.ic_chat_bubble_black_24dp, R.string.tab_chat),
+                new BottomBarTab(R.drawable.ic_public_black_24dp, R.string.tab_trending),
+                new BottomBarTab(R.drawable.ic_settings_black_24dp, R.string.tab_settings));
 
         // Add colors for different tabs when there is more than three of them.
-//        mBottomBar.mapColorForTab(0, "#******");
-//        mBottomBar.mapColorForTab(1, "#******");
-//        mBottomBar.mapColorForTab(2, "#******");
-//        mBottomBar.mapColorForTab(3, "#******");
+        mBottomBar.mapColorForTab(0, "#607D8B");
+        mBottomBar.mapColorForTab(1, "#009688");
+        mBottomBar.mapColorForTab(2, "#795548");
+        mBottomBar.mapColorForTab(3, "#212121");
 
         // Listen for tab changes.
         mBottomBar.setOnTabClickListener(new OnTabClickListener() {
@@ -89,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
