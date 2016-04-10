@@ -2,6 +2,7 @@ package org.binarybeats.quickie.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,6 +13,7 @@ import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 
 import org.binarybeats.quickie.R;
 import org.binarybeats.quickie.adapters.NearbyRecyclerViewAdapter;
+import org.binarybeats.quickie.adapters.RecyclerItemClickListener;
 import org.binarybeats.quickie.models.Event;
 import org.binarybeats.quickie.models.Place;
 import org.binarybeats.quickie.models.User;
@@ -38,6 +40,28 @@ public class NearbyFragment extends Fragment {
 
         NearbyRecyclerViewAdapter adapter = new NearbyRecyclerViewAdapter(
                 container.getContext(), dummyPlaces(), dummyEvents(), dummyUsers());
+
+        mRecyclerViewNearby.addOnItemTouchListener(
+                new RecyclerItemClickListener(container.getContext(), new RecyclerItemClickListener.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(View view, int position) {
+                        // TODO Handle item click
+
+                        if (position == 0 || position == 1 || position == 2 || position == 3 || position == 4) {
+
+                        } else {
+
+                            // Public Profile Dialog
+                            CustomDialogFragment customDialogFragment = new CustomDialogFragment(getContext(), users.get(position-5));
+                            FragmentManager fragmentManager = getChildFragmentManager();
+                            customDialogFragment.show(fragmentManager, "dialog");
+
+                        }
+
+
+                    }
+                })
+        );
 
         mRecyclerViewNearby.addItemDecoration(
                 new HorizontalDividerItemDecoration.Builder(getContext())
@@ -68,8 +92,10 @@ public class NearbyFragment extends Fragment {
         return events;
     }
 
+    ArrayList<User> users = new ArrayList<>();
+
     private ArrayList<User> dummyUsers() {
-        ArrayList<User> users = new ArrayList<>();
+
         for (int i = 0; i < 10; i++) {
             users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@johndoe", "I'm using Quickie."));
         }

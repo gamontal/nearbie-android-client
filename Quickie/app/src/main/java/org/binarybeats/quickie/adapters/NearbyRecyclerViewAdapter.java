@@ -183,18 +183,21 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
 
     @Override
     public boolean shouldHideDivider(int position, RecyclerView parent) {
-//        switch (position) {
-//            case PLACE_HEADER_POSITION:
-//                return true;
-//            case EVENT_HEADER_POSITION:
-//                return true;
-//            case USER_HEADER_POSITION:
-//                return true;
-//        }
-//
-//        return false;
+        switch (position) {
+            case PLACE_HEADER_POSITION:
+                return true;
 
-        return true;
+            case 1:
+                return true;
+            case EVENT_HEADER_POSITION:
+                return true;
+            case 3:
+                return true;
+            case USER_HEADER_POSITION:
+                return true;
+        }
+
+        return false;
     }
 
     @Override
