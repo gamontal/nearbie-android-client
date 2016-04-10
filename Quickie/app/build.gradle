@@ -33,4 +33,6 @@ dependencies {
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.google.maps.android:android-maps-utils:0.4'
     compile 'com.github.machinarius:preferencefragment:0.1.1'
+    compile 'io.realm:realm-android:0.73.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.1'
 }

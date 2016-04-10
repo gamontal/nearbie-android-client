@@ -86,8 +86,6 @@ public class MainActivity extends AppCompatActivity {
             public void onTabSelected(int position) {
                 // The user selected a tab at the specified position.
                 replaceCurrentFragment(position);
-
-
             }
 
             @Override
