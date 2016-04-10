@@ -72,7 +72,7 @@ public class TrendingFragment extends Fragment implements OnMapReadyCallback {
 
 
         // Position the map.
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(18.2418833, -66.0066341), 10f));
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(18.2418833, -66.0066341), 9f));
 //        googleMap.addMarker(new MarkerOptions()
 //                .position(new LatLng(18.2418833, -66.0066341))
 //                .title("Hack Turabo")
@@ -87,9 +87,20 @@ public class TrendingFragment extends Fragment implements OnMapReadyCallback {
         googleMap.setOnCameraChangeListener(mClusterManager);
         googleMap.setOnMarkerClickListener(mClusterManager);
 
-        addDummyItems1(bitmapDescriptor);
-        addDummyItems2(bitmapDescriptor);
-        addDummyItems3(bitmapDescriptor);
+
+
+        mClusterManager.addItem(new MapMarker(18.2418833, -66.0066341, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.256305, -66.125411, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.282305, -66.052411, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.125017, -66.008691, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.351231, -65.996612, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.301231, -65.946612, bitmapDescriptor));
+        mClusterManager.addItem(new MapMarker(18.383037, -66.037965, bitmapDescriptor));
+
+
+//        addDummyItems1(bitmapDescriptor);
+//        addDummyItems2(bitmapDescriptor);
+//        addDummyItems3(bitmapDescriptor);
     }
 
     private void addDummyItems1(BitmapDescriptor bitmapDescriptor) {
