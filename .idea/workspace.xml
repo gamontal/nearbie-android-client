@@ -10,132 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f550da5-3c27-4548-a460-073f449ddfb6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/bb-android.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/.idea/runConfigurations.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/proguard-rules.pro" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/androidTest/java/org/binarybeats/quickie/ApplicationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/adapters/EventRecyclerViewAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/adapters/NearbyRecyclerViewAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/adapters/PlaceRecyclerViewAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/adapters/RecyclerItemClickListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/ChatFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/ChatRecyclerViewAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/CustomDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/NearbyFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/OwnIconRendered.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/SettingsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/fragments/TrendingFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/models/Event.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/models/MapMarker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/models/Place.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/models/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/viewholders/EventViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/viewholders/HeaderViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/viewholders/PlaceViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/java/org/binarybeats/quickie/viewholders/UserViewHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_chat_bubble_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_fiber_manual_record_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_right_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_keyboard_arrow_right_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_near_me_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_public_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_room_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-hdpi/ic_settings_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_chat_bubble_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_fiber_manual_record_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_keyboard_arrow_right_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_keyboard_arrow_right_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_near_me_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_public_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_room_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-mdpi/ic_settings_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_chat_bubble_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_fiber_manual_record_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_right_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_keyboard_arrow_right_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_near_me_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_public_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_room_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/ic_settings_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xhdpi/jsa.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_chat_bubble_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_fiber_manual_record_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_right_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_keyboard_arrow_right_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_near_me_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_public_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_room_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxhdpi/ic_settings_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_chat_bubble_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_fiber_manual_record_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_right_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_keyboard_arrow_right_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_near_me_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_public_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_room_white_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable-xxxhdpi/ic_settings_black_24dp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable/john_doe.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable/male_24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/drawable/marker_circle.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout-v21/item_event.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout-v21/item_place.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/content_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/content_settings_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/content_settings_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/custom_dialog_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/fragment_chat.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/fragment_nearby.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/fragment_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/fragment_trending.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/item_chat_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/item_event.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/item_header.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/item_place.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/item_user.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/layout_event.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/layout/layout_place.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/menu/menu_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values-v21/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values/google_maps_api.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/main/res/xml/settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/app/src/test/java/org/binarybeats/quickie/ExampleUnitTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/gradlew" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quickie/settings.gradle" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
     </list>
     <ignored path="bb-android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1855,7 +1731,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4386854683063" />
+        <entry key="$PROJECT_DIR$" value="4399569698265" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2163,6 +2039,13 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/ChatDetailActivity.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -2217,28 +2100,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2315,16 +2176,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="fragment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bb-android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2675,7 +2526,7 @@
         <state vertical-scroll-proportion="0.05923345">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2685,8 +2536,8 @@
         <state vertical-scroll-proportion="0.4738676">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#563#564#0" expanded="false" />
           </folding>
         </state>
       </provider>
