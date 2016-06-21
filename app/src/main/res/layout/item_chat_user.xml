@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_marginLeft="16dp"
+    android:orientation="horizontal">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image_chat"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/john_doe"
+        android:layout_gravity="center_vertical"
+        app:riv_corner_radius="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/username_chat"
+            android:layout_width="wrap_content"
+            android:text="\@johndoe"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:textColor="#DE000000"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/profile_image_chat"
+            android:layout_toEndOf="@+id/profile_image_chat" />
+
+    <ImageView
+        android:id="@+id/chat_list_icon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_chat_bubble_black_24dp"
+        android:layout_alignBottom="@+id/username_chat"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
