@@ -17,9 +17,6 @@ import org.binarybeats.quickie.model.User;
 
 import java.util.ArrayList;
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class ChatFragment extends Fragment implements ChatRecyclerViewAdapter.OnItemClickListener {
 
     public static final String EXTRA_MESSAGE = null;
