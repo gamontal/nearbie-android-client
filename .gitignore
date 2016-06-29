@@ -34,3 +34,5 @@ proguard/
 
 # Android Studio captures folder
 captures/
+.idea/dictionaries/Leonardo_Maldonado.xml
+.idea/workspace.xml

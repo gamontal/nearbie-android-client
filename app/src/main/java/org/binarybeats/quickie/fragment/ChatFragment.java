@@ -28,26 +28,21 @@ public class ChatFragment extends Fragment implements ChatRecyclerViewAdapter.On
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_chat, container, false);
 
-        RecyclerView rv = (RecyclerView) view.findViewById(R.id.recycler_view_chat);
-        rv.setLayoutManager(new LinearLayoutManager(container.getContext()));
-
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view_chat);
+        recyclerView.setLayoutManager(new LinearLayoutManager(container.getContext()));
 
         ChatRecyclerViewAdapter adapter = new ChatRecyclerViewAdapter(getContext(), dummyUsers(), this);
 
-        rv.addItemDecoration(
+        recyclerView.addItemDecoration(
                 new HorizontalDividerItemDecoration.Builder(getContext())
                         .marginProvider(adapter)
                         .build());
 
-        rv.setAdapter(adapter);
-
-        // Public Profile Dialog
-//        CustomDialogFragment customDialogFragment = new CustomDialogFragment();
-//        FragmentManager fragmentManager = getChildFragmentManager();
-//        customDialogFragment.show(fragmentManager, "dialog");
+        recyclerView.setAdapter(adapter);
 
         return view;
     }
