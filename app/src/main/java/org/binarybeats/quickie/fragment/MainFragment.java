@@ -2,7 +2,6 @@ package org.binarybeats.quickie.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -12,17 +11,20 @@ import android.view.ViewGroup;
 import com.yqritc.recyclerviewflexibledivider.HorizontalDividerItemDecoration;
 
 import org.binarybeats.quickie.R;
-import org.binarybeats.quickie.adapter.NearbyRecyclerViewAdapter;
-import org.binarybeats.quickie.adapter.RecyclerItemClickListener;
+import org.binarybeats.quickie.adapter.MainAdapter;
 import org.binarybeats.quickie.model.Event;
 import org.binarybeats.quickie.model.Place;
 import org.binarybeats.quickie.model.User;
 
 import java.util.ArrayList;
 
-public class NearbyFragment extends Fragment {
+public class MainFragment extends Fragment {
 
-    public NearbyFragment() {
+    private RecyclerView mRecyclerView;
+    private MainAdapter mAdapter;
+    private RecyclerView.LayoutManager mLayoutManager;
+
+    public MainFragment() {
         // Required empty public constructor
     }
 
@@ -31,45 +33,16 @@ public class NearbyFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         // Inflate the layout for this fragment.
-        View view = inflater.inflate(R.layout.fragment_nearby, container, false);
+        View view = inflater.inflate(R.layout.fragment_main, container, false);
 
-        RecyclerView mRecyclerViewNearby =
-                (RecyclerView) view.findViewById(R.id.recycler_view_nearby);
-
-        mRecyclerViewNearby.setLayoutManager(new LinearLayoutManager(container.getContext()));
-
-        NearbyRecyclerViewAdapter adapter = new NearbyRecyclerViewAdapter(
-                container.getContext(), dummyPlaces(), dummyEvents(), dummyUsers());
-
-        mRecyclerViewNearby.addOnItemTouchListener(
-                new RecyclerItemClickListener(container.getContext(), new RecyclerItemClickListener.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int position) {
-                        // TODO Handle item click
-
-                        if (position == 0 || position == 1 || position == 2 || position == 3 || position == 4) {
-
-                        } else {
-
-                            // Public Profile Dialog
-                            CustomDialogFragment customDialogFragment = new CustomDialogFragment(getContext(), users.get(position-5));
-                            FragmentManager fragmentManager = getChildFragmentManager();
-                            customDialogFragment.show(fragmentManager, "dialog");
-
-                        }
-
-
-                    }
-                })
-        );
-
-        mRecyclerViewNearby.addItemDecoration(
-                new HorizontalDividerItemDecoration.Builder(getContext())
-                        .visibilityProvider(adapter)
-                        .marginProvider(adapter)
+        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(container.getContext()));
+        mAdapter = new MainAdapter(getContext(), dummyPlaces(), dummyEvents(), dummyUsers());
+        mRecyclerView.addItemDecoration(new HorizontalDividerItemDecoration.Builder(getContext())
+                        .visibilityProvider(mAdapter)
+                        .marginProvider(mAdapter)
                         .build());
-
-        mRecyclerViewNearby.setAdapter(adapter);
+        mRecyclerView.setAdapter(mAdapter);
 
         return view;
     }
@@ -93,17 +66,14 @@ public class NearbyFragment extends Fragment {
         return events;
     }
 
-    ArrayList<User> users = new ArrayList<>();
-
     private ArrayList<User> dummyUsers() {
-
+        ArrayList<User> users = new ArrayList<>();
         users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@pedrito", "Hey There! I am using Nearbie."));
         users.add(new User("http://www.material-ui.com/images/chexee-128.jpg", "@valentina89", "Lets go hang!"));
         users.add(new User("http://www.material-ui.com/images/kolage-128.jpg", "@erick_34", "Hey There! I am using Nearbie."));
         users.add(new User("http://www.material-ui.com/images/uxceo-128.jpg", "@maria_vel", "Wanna party tonight?"));
         users.add(new User("http://www.material-ui.com/images/adhamdannaway-128.jpg", "@leo_mldo", "Hey There! I am using Nearbie."));
         users.add(new User("http://www.sprigs.life/wp-content/uploads/2015/10/testimonials_2.jpg", "@angel_jesus", "Hey There! I am using Nearbie."));
-
         return users;
     }
 }

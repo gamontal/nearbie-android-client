@@ -14,7 +14,7 @@ import com.roughike.bottombar.BottomBarTab;
 import com.roughike.bottombar.OnTabClickListener;
 
 import org.binarybeats.quickie.fragment.ChatFragment;
-import org.binarybeats.quickie.fragment.NearbyFragment;
+import org.binarybeats.quickie.fragment.MainFragment;
 import org.binarybeats.quickie.fragment.SettingsFragment;
 import org.binarybeats.quickie.fragment.TrendingFragment;
 
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     private void buildBottomBar(Bundle savedInstanceState) {
         // Add tabs fragments
         mBottomBarFragments = new ArrayList<>();
-        mBottomBarFragments.add(new NearbyFragment());
+        mBottomBarFragments.add(new MainFragment());
         mBottomBarFragments.add(new ChatFragment());
         mBottomBarFragments.add(new TrendingFragment());
         mBottomBarFragments.add(new SettingsFragment());
