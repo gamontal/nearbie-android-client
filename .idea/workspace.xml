@@ -22,22 +22,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f550da5-3c27-4548-a460-073f449ddfb6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/MainAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/MainAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/PlaceRecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/PlaceRecyclerViewAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/viewholder/PlaceViewHolder.java" afterPath="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/viewholder/PlaceViewHolder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/item_event.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/item_event.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout-v21/item_place.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout-v21/item_place.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chat.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_place.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_place.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml" />
     </list>
     <ignored path="bb-android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,10 +103,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/MainAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5557491">
+            <state vertical-scroll-proportion="0.0">
               <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
               <folding>
                 <element signature="e#6491#6492#0" expanded="true" />
@@ -128,6 +114,16 @@
                 <element signature="e#8452#8453#0" expanded="true" />
                 <element signature="e#8476#8477#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google_maps_api.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.062043797">
+              <caret line="2" column="128" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2562,6 +2558,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout-v21/item_event.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/MainAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml" />
       </list>
     </option>
   </component>
@@ -3320,14 +3317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3552,7 +3541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/org/binarybeats/quickie/adapter/MainAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5557491">
+        <state vertical-scroll-proportion="0.0">
           <caret line="122" column="30" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
           <folding>
             <element signature="e#6491#6492#0" expanded="true" />
@@ -3560,6 +3549,14 @@
             <element signature="e#8452#8453#0" expanded="true" />
             <element signature="e#8476#8477#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.062043797">
+          <caret line="2" column="128" selection-start-line="2" selection-start-column="128" selection-end-line="2" selection-end-column="128" />
+          <folding />
         </state>
       </provider>
     </entry>
