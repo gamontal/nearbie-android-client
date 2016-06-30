@@ -46,7 +46,6 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
 
     public NearbyRecyclerViewAdapter(Context context, ArrayList<Place> places,
                                      ArrayList<Event> events, ArrayList<User> users) {
-
         mContext = context;
         mPlaces = places;
         mEvents = events;
@@ -55,7 +54,6 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
 
     @Override
     public int getItemViewType(int position) {
-
         switch (position) {
             case PLACE_HEADER_POSITION:
                 return PLACE_HEADER;
@@ -124,7 +122,7 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
                 break;
             case EVENT_HEADER:
                 HeaderViewHolder headerEventViewHolder = (HeaderViewHolder) holder;
-                headerEventViewHolder.getHeader().setText("Events");
+                headerEventViewHolder.getHeader().setText("Nearby Spots");
                 break;
             case EVENT:
                 EventViewHolder eventViewHolder = (EventViewHolder) holder;
@@ -186,7 +184,6 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
         switch (position) {
             case PLACE_HEADER_POSITION:
                 return true;
-
             case 1:
                 return true;
             case EVENT_HEADER_POSITION:

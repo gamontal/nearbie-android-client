@@ -8,16 +8,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-
 import org.binarybeats.quickie.R;
 import org.binarybeats.quickie.model.Event;
 
 import java.util.ArrayList;
 
-/**
- * Created by Leamsy on 4/6/2016.
- */
 public class EventRecyclerViewAdapter extends RecyclerView.Adapter<EventRecyclerViewAdapter.EventRecyclerViewViewHolder> {
 
     private Context mContext;
@@ -36,13 +31,13 @@ public class EventRecyclerViewAdapter extends RecyclerView.Adapter<EventRecycler
 
     @Override
     public void onBindViewHolder(EventRecyclerViewViewHolder holder, int position) {
-        Picasso.with(mContext)
-                .load(mEvents.get(position).getEventImage())
-                .fit()
-                .centerCrop()
-                .placeholder(R.mipmap.ic_launcher)
-                .into(holder.mEventImage);
-        holder.mEventName.setText(mEvents.get(position).getEventName());
+//        Picasso.with(mContext)
+//                .load(mEvents.get(position).getEventImage())
+//                .fit()
+//                .centerCrop()
+//                .placeholder(R.mipmap.ic_launcher)
+//                .into(holder.mEventImage);
+//        holder.mEventName.setText(mEvents.get(position).getEventName());
     }
 
     @Override
