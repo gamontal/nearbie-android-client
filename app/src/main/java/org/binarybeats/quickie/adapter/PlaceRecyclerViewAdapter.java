@@ -14,9 +14,6 @@ import org.binarybeats.quickie.model.Place;
 
 import java.util.ArrayList;
 
-/**
- * Created by Leamsy on 4/6/2016.
- */
 public class PlaceRecyclerViewAdapter extends RecyclerView.Adapter<PlaceRecyclerViewAdapter.PlaceRecyclerViewViewHolder> {
 
     private Context mContext;
@@ -35,12 +32,12 @@ public class PlaceRecyclerViewAdapter extends RecyclerView.Adapter<PlaceRecycler
 
     @Override
     public void onBindViewHolder(PlaceRecyclerViewViewHolder holder, int position) {
-        Picasso.with(mContext)
-                .load(mPlaces.get(position).getPlaceImage())
-                .fit()
-                .centerCrop()
-                .placeholder(R.mipmap.ic_launcher)
-                .into(holder.mPlaceImage);
+//        Picasso.with(mContext)
+//                .load(mPlaces.get(position).getPlaceImage())
+//                .fit()
+//                .centerCrop()
+//                .placeholder(R.mipmap.ic_launcher)
+//                .into(holder.mPlaceImage);
     }
 
     @Override

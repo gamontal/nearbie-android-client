@@ -1,12 +1,9 @@
 <resources>
-    <string name="app_name">Quickie</string>
+    <string name="app_name">Hangouts</string>
     <string name="action_settings">Settings</string>
 
-    <string name="tab_nearby">Nearby</string>
-    <string name="tab_chat">Chat</string>
-    <string name="tab_trending">Trending</string>
-    <string name="tab_settings">Settings</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_tab_spots">Spots</string>
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_trending">Trending</string>
+    <string name="main_tab_settings">Settings</string>
 </resources>

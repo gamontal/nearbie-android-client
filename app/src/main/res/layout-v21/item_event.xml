@@ -3,8 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card_view"
-    android:layout_width="160dp"
-    android:layout_height="wrap_content"
+    android:layout_width="300dp"
+    android:layout_height="180dp"
     android:clickable="true"
     android:foreground="?selectableItemBackground"
     android:layout_marginEnd="8dp"
@@ -13,40 +13,56 @@
     card_view:elevation="4dp"
     card_view:cardCornerRadius="2dp">
 
-    <RelativeLayout
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/main_spot_photo"
+            android:id="@+id/main_spot_bg"
             android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
+            android:layout_height="match_parent"
             android:background="@color/cardview_dark_background" />
 
-        <TextView
-            android:id="@+id/main_spot_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/main_spot_photo"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="16dp"
-            android:layout_marginLeft="16dp"
-            style="@style/TextAppearance.AppCompat.Body1"
-            android:text="Brava Club" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/main_spot_info"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/main_spot_name"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="4dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginBottom="16dp"
-            android:textColor="#61000000"
-            style="@style/Base.TextAppearance.AppCompat.Body1"
-            android:text="San Juan, 1km" />
-    </RelativeLayout>
+            <TextView
+                android:id="@+id/main_event_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:text="Brava Club" />
+
+            <TextView
+                android:id="@+id/main_event_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_event_name"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="16dp"
+                android:textColor="@color/white"
+                android:drawablePadding="4dp"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:text="San Juan, 1km" />
+
+            <TextView
+                android:id="@+id/main_event_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:drawablePadding="4dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:text="32 people here" />
+        </RelativeLayout>
+    </FrameLayout>
 </android.support.v7.widget.CardView>

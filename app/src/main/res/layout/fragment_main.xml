@@ -3,10 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EEEEEE"
-    tools:mContext="org.binarybeats.quickie.fragment.NearbyFragment">
+    tools:mContext="org.binarybeats.quickie.fragment.MainFragment">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view_nearby"
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </FrameLayout>

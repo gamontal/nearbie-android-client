@@ -22,7 +22,7 @@ import org.binarybeats.quickie.viewholder.UserViewHolder;
 
 import java.util.ArrayList;
 
-public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
+public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         implements FlexibleDividerDecoration.VisibilityProvider,
         HorizontalDividerItemDecoration.MarginProvider {
 
@@ -44,8 +44,8 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
     private ArrayList<Event> mEvents;
     private ArrayList<User> mUsers;
 
-    public NearbyRecyclerViewAdapter(Context context, ArrayList<Place> places,
-                                     ArrayList<Event> events, ArrayList<User> users) {
+    public MainAdapter(Context context, ArrayList<Place> places,
+                       ArrayList<Event> events, ArrayList<User> users) {
         mContext = context;
         mPlaces = places;
         mEvents = events;
@@ -110,7 +110,7 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
         switch (holder.getItemViewType()) {
             case PLACE_HEADER:
                 HeaderViewHolder headerPlaceViewHolder = (HeaderViewHolder) holder;
-                headerPlaceViewHolder.getHeader().setText("Places");
+                headerPlaceViewHolder.getHeader().setText("Nearby Spots");
                 break;
             case PLACE:
                 PlaceViewHolder placeViewHolder = (PlaceViewHolder) holder;
@@ -122,7 +122,7 @@ public class NearbyRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView
                 break;
             case EVENT_HEADER:
                 HeaderViewHolder headerEventViewHolder = (HeaderViewHolder) holder;
-                headerEventViewHolder.getHeader().setText("Nearby Spots");
+                headerEventViewHolder.getHeader().setText("Live Events");
                 break;
             case EVENT:
                 EventViewHolder eventViewHolder = (EventViewHolder) holder;
