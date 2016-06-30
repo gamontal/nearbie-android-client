@@ -94,7 +94,7 @@ public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 viewHolder = new EventViewHolder(eventView);
                 break;
             case USER_HEADER:
-                View headerUserView = inflater.inflate(R.layout.item_header, parent, false);
+                View headerUserView = inflater.inflate(R.layout.main_user_sub_header, parent, false);
                 viewHolder = new HeaderViewHolder(headerUserView);
                 break;
             case USER:
@@ -133,8 +133,8 @@ public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                         .setAdapter(new EventRecyclerViewAdapter(mContext, mEvents));
                 break;
             case USER_HEADER:
-                HeaderViewHolder headerUserViewHolder = (HeaderViewHolder) holder;
-                headerUserViewHolder.getHeader().setText("Users");
+//                HeaderViewHolder headerUserViewHolder = (HeaderViewHolder) holder;
+//                headerUserViewHolder.getHeader().setText("Users");
                 break;
             case USER:
                 UserViewHolder userViewHolder = (UserViewHolder) holder;

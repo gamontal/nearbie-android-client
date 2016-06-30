@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Hangouts</string>
     <string name="action_settings">Settings</string>
-
     <string name="main_tab_spots">Spots</string>
     <string name="main_tab_chat">Chat</string>
     <string name="main_tab_trending">Trending</string>
     <string name="main_tab_settings">Settings</string>
+    <string name="main_user_spinner_prompt">Nearby Users</string>
+
+    <string-array name="main_user_spinner_array">
+        <item>Online Users</item>
+        <item>All Users</item>
+        <item>Friends</item>
+    </string-array>
 </resources>
