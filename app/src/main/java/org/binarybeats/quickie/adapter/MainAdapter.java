@@ -110,7 +110,7 @@ public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
         switch (holder.getItemViewType()) {
             case PLACE_HEADER:
                 HeaderViewHolder headerPlaceViewHolder = (HeaderViewHolder) holder;
-                headerPlaceViewHolder.getHeader().setText("Places");
+                headerPlaceViewHolder.getHeader().setText("Nearby Spots");
                 break;
             case PLACE:
                 PlaceViewHolder placeViewHolder = (PlaceViewHolder) holder;
@@ -122,7 +122,7 @@ public class MainAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
                 break;
             case EVENT_HEADER:
                 HeaderViewHolder headerEventViewHolder = (HeaderViewHolder) holder;
-                headerEventViewHolder.getHeader().setText("Nearby Spots");
+                headerEventViewHolder.getHeader().setText("Live Events");
                 break;
             case EVENT:
                 EventViewHolder eventViewHolder = (EventViewHolder) holder;

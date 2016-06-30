@@ -5,9 +5,6 @@ import android.view.View;
 
 import org.binarybeats.quickie.R;
 
-/**
- * Created by Leamsy on 4/6/2016.
- */
 public class PlaceViewHolder extends RecyclerView.ViewHolder {
 
     private RecyclerView mPlaceRecyclerView;
